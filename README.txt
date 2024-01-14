@@ -1,0 +1,1 @@
+This is a dash app that allows the user to analyze and visualize a pseudorandom sample of demographic/socioeconomic data and generate new samples by editing either the length of the data or the seed of the pseudorandom number generator.

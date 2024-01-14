@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(238, 240, 229);
+    font-family: sans-serif
+}
+
+h1 {
+    color: rgb(22, 48, 32);
+    font-family: sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%
+}
+
+.Select-control {
+    border: 0px;
+    color: rgb(22, 48, 32);
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+.is-focused:not(.is-open)>.Select-control {
+    box-shadow: none
+}
+
+.Select-placeholder {
+    color: rgb(22, 48, 32);
+}
+
+.Select-menu-outer {
+    border: 0px
+}
+
+.Select-menu-outer .VirtualizedSelectOption {
+    color: rgb(22, 48, 32)
+}
+
+.Select-menu-outer .VirtualizedSelectSelectedOption {
+    color: rgb(22, 48, 32)
+}
+
+.Select-menu-outer .VirtualizedSelectFocusedOption {
+    color: rgb(22, 48, 32);
+    background-color: rgb(238, 240, 229)
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(22, 48, 32);
+}
+
+.nav-tabs .nav-link {
+    border-radius: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: rgb(238, 240, 229);
+    background-color: rgb(22, 48, 32);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.nav {
+    --bs-nav-link-color: rgb(238, 240, 229);
+    --bs-nav-link-hover-color: rgb(238, 240, 229);
+    border-radius: 15px;
+    margin-bottom: 1%
+}
+
+button {
+    color: rgb(22, 48, 32);
+    background-color: rgb(238, 240, 229);
+    border:0px;
+}
+
+.button_home {
+    font-size: 25px;
+    border: 0px;
+    margin-top: 8%;
+    border-radius: 50px;
+    width: 250px;
+    height: 70px;
+    align-items: center;
+    justify-content:center
+}
+
+.dash-input {
+    width: 250px;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+}
+
+#input_length::placeholder {
+    color: rgba(22, 48, 32, .5)
+}
+
+.button_home {
+    color: rgb(238, 240, 229);
+    background-color: rgb(22, 48, 32);
+}
+
+.col-3 {
+    width: 50%;
+    justify-content: center
+}
+
+.col_home_buttons {
+    text-align: center
+}
+
+p {
+    font-size: 30px;
+
+}
+
+.col-6 {
+    display: flex;
+    align-items: center
+}
+
+.gender_button {
+    border-right: 2px solid rgb(22, 48, 32);
+}
+
+ul {
+    list-style-type: none;
+    margin-top:3%
+}
+
+li {
+    margin-bottom: 1%;
+    font-size: large;
+}
